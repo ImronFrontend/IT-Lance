@@ -1,0 +1,202 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  height: 70px;
+  gap: 50px;
+}
+.navbar-logo {
+  width: 180px;
+}
+.navbar-ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+.navbar-a {
+  color: gray;
+  text-decoration: none;
+  font-family: "montserrat";
+  font-size: 20px;
+  transition: all 0.3s linear;
+}
+.navbar-a:hover {
+  color: black;
+}
+.navbar-btn {
+  width: 90%;
+  width: 200px;
+  height: 40px;
+  color: #1bc9df;
+  border-color: #1bc9df;
+  background-color: white;
+  border-radius: 20px;
+  font-family: "montserrat";
+  transition: all 0.4s linear;
+}
+.navbar-btn:hover {
+  background-color: #1bc9df;
+  color: white;
+  border: none;
+}
+.navbar-secondbtn {
+  width: 50px;
+  background-color: white;
+  border-color: gray;
+  border-radius: 10px;
+  transition: all 0.4s linear;
+}
+.navbar-secondbtn:hover {
+  background-color: black;
+  color: white;
+  border: none;
+}
+.navbar-burger {
+  display: none;
+  flex-direction: column;
+  gap: 4px;
+  margin-left: -30px;
+}
+.navbar-burger div {
+  width: 25px;
+  height: 3px;
+  background-color: black;
+  border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+  .navbar-ul {
+    display: none;
+  }
+  .navbar-burger {
+    display: flex;
+  }
+  .logo {
+    width: 100%;
+  }
+  .navbar-btn {
+    display: none;
+  }
+  .navbar-secondbtn {
+    display: none;
+  }
+}
+.intro {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.intro-p1 {
+  font-size: 35px;
+  color: #09c6de;
+  white-space-collapse: break-spaces;
+  font-family: "montserrat";
+  margin-top: 60px;
+}
+.intro-p2 {
+  position: absolute;
+  color: gray;
+  font-family: "montserrat";
+  margin-top: 200px;
+}
+.intro-btn {
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  background-color: #00c5de;
+  border: none;
+  font-family: "montserrat";
+  border-radius: 20px;
+  color: white;
+  margin-top: 330px;
+  transition: all 0.3s linear;
+}
+.intro-btn:hover {
+  color: #00c5de;
+  background-color: white;
+  border-color: #00c5de;
+}
+.intro-phone {
+  position: absolute;
+  margin-top: 800px;
+  margin-left: -800px;
+}
+.intro-camera {
+  max-width: 100%;
+  position: absolute;
+  width: 300px;
+  margin-top: 1100px;
+  margin-left: -400px;
+}
+.intro-camera2 {
+  position: absolute;
+  width: 300px;
+  margin-top: 1100px;
+  margin-left: 50px;
+}
+.intro-camera3 {
+  position: absolute;
+  margin-top: 1100px;
+  margin-left: 440px;
+}
+.intro-camera4 {
+  position: absolute;
+  margin-top: 880px;
+  margin-left: 900px;
+}
+
+@media (max-width: 768px) {
+  .intro-phone {
+    width: 100%;
+  }
+  .intro-p1 {
+    font-size: 20px;
+    margin-left: 20px;
+  }
+  .intro-p2 {
+    margin-left: 20px;
+    margin-top: 250px;
+  }
+  .intro-btn {
+    margin-top: 400px;
+  }
+  .intro-phone {
+    position: absolute;
+    width: 100%;
+    width: 500px;
+    margin-left: 20px;
+  }
+  .intro-camera {
+    position: absolute;
+    width: 100%;
+    margin-left: 20px;
+    margin-top: 1300px;
+  }
+  .intro-camera2 {
+    position: absolute;
+    width: 100%;
+    margin-top: 1600px;
+    margin-left: -10px;
+  }
+  .intro-camera3 {
+    position: absolute;
+    margin-top: 1950px;
+    margin-left: -5px;
+  }
+  .intro-camera4 {
+    position: absolute;
+    width: 100px;
+    margin-top: 2350px;
+    margin-left: -10px;
+  }
+}/*# sourceMappingURL=style.css.map */
