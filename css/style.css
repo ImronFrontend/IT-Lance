@@ -114,7 +114,7 @@
   width: 200px;
   height: 50px;
   background-color: #00c5de;
-  border: none;
+  border-color: #00c5de;
   font-family: "montserrat";
   border-radius: 20px;
   color: white;
@@ -156,47 +156,298 @@
 }
 
 @media (max-width: 768px) {
-  .intro-phone {
-    width: 100%;
+  .intro {
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
   }
   .intro-p1 {
-    font-size: 20px;
-    margin-left: 20px;
+    font-size: 22px;
+    margin: 40px 20px 10px;
+    text-align: center;
   }
   .intro-p2 {
-    margin-left: 20px;
-    margin-top: 250px;
+    position: static;
+    margin: 10px 20px;
+    text-align: center;
   }
   .intro-btn {
-    margin-top: 400px;
+    position: static;
+    margin: 20px 0 30px 0;
   }
-  .intro-phone {
-    position: absolute;
-    width: 100%;
-    width: 500px;
-    margin-left: 20px;
-  }
-  .intro-camera {
-    position: absolute;
-    width: 100%;
-    margin-left: 20px;
-    margin-top: 1300px;
-  }
-  .intro-camera2 {
-    position: absolute;
-    width: 100%;
-    margin-top: 1600px;
-    margin-left: -10px;
-  }
-  .intro-camera3 {
-    position: absolute;
-    margin-top: 1950px;
-    margin-left: -5px;
-  }
+  .intro-phone,
+  .intro-camera,
+  .intro-camera2,
+  .intro-camera3,
   .intro-camera4 {
-    position: absolute;
-    width: 100px;
-    margin-top: 2350px;
-    margin-left: -10px;
+    position: static;
+    width: 80%;
+    max-width: 320px;
+    margin: 15px 0;
+  }
+}
+.poss {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.poss-p1 {
+  margin-top: 700px;
+  font-size: 35px;
+  font-family: "montserrat";
+}
+.poss-div1 {
+  position: absolute;
+  width: 361px;
+  height: 400px;
+  background-color: whitesmoke;
+  margin-top: 1200px;
+  margin-left: -700px;
+  border-radius: 20px;
+}
+.poss-img1 {
+  margin-left: -13px;
+}
+.poss-div2 {
+  position: absolute;
+  width: 361px;
+  height: 400px;
+  background-color: whitesmoke;
+  margin-top: 1200px;
+  margin-left: 100px;
+  border-radius: 20px;
+}
+.poss-img2 {
+  margin-left: -13px;
+}
+.poss-div3 {
+  position: absolute;
+  width: 361px;
+  height: 400px;
+  background-color: whitesmoke;
+  margin-top: 1200px;
+  margin-left: 900px;
+  border-radius: 20px;
+}
+.poss-img3 {
+  margin-left: -13px;
+}
+.poss-p2 {
+  color: #3bd1e5;
+  font-family: "montserrat";
+  margin-left: 20px;
+  font-size: 17px;
+}
+.poss-p3 {
+  color: gray;
+  font-family: "montserrat";
+  margin-top: 10px;
+  margin-left: 5px;
+}
+.poss-p4 {
+  color: #3bd1e5;
+  font-family: "montserrat";
+}
+
+@media (max-width: 768px) {
+  .poss {
+    flex-direction: column;
+    align-items: center;
+  }
+  .poss-p1 {
+    margin-top: 100px;
+    font-size: 24px;
+    text-align: center;
+  }
+  .poss-div1,
+  .poss-div2,
+  .poss-div3 {
+    position: static;
+    width: 90%;
+    height: auto;
+    margin: 20px 0;
+  }
+  .poss-img1,
+  .poss-img2,
+  .poss-img3 {
+    width: 100%;
+    height: auto;
+    margin-left: 0;
+  }
+}
+.elon {
+  width: 100%;
+  height: 100px;
+  margin-top: 500px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: aquamarine;
+}
+.elon-p1 {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  font-family: "montserrat";
+  margin-top: 1800px;
+}
+.elon-musk {
+  position: absolute;
+  margin-top: 1000px;
+  margin-left: -700px;
+}
+.elon-vid {
+  position: absolute;
+  margin-top: 1000px;
+  margin-left: -200px;
+}
+.elon-face1 {
+  position: absolute;
+  margin-top: 2800px;
+  margin-left: -1050px;
+}
+.elon-p2 {
+  position: absolute;
+  margin-top: 2770px;
+  margin-left: -870px;
+  font-family: "montserrat";
+}
+.elon-p3 {
+  position: absolute;
+  margin-top: 2770px;
+  font-family: "montserrat";
+  margin-left: -340px;
+}
+.elon-div1 {
+  position: absolute;
+  background-color: whitesmoke;
+  width: 500px;
+  height: 300px;
+  margin-top: 3250px;
+  margin-left: -650px;
+  border-radius: 15px;
+}
+.elon-p4 {
+  font-family: "montserrat";
+  margin-top: 40px;
+  font-size: 20px;
+  white-space-collapse: break-spaces;
+  margin-left: 10px;
+}
+.elon-ul1 {
+  margin-top: 40px;
+  font-family: "montserrat";
+  font-size: 18px;
+  margin-left: 50px;
+}
+.elon-ul2 {
+  margin-top: 40px;
+  font-size: 18px;
+  font-family: "montserrat";
+  margin-left: 50px;
+}
+.elon-ul3 {
+  margin-top: 40px;
+  font-size: 18px;
+  font-family: "montserrat";
+  margin-left: 50px;
+}
+.elon-face2 {
+  position: absolute;
+  margin-top: 2800px;
+  margin-left: -70px;
+}
+.elon-p5 {
+  position: absolute;
+  font-family: "montserrat";
+  margin-top: 2770px;
+  white-space-collapse: break-spaces;
+  margin-left: 100px;
+}
+.elon-p6 {
+  position: absolute;
+  margin-top: 2770px;
+  font-family: "montserrat";
+  margin-left: 1080px;
+}
+.elon-div2 {
+  position: absolute;
+  background-color: whitesmoke;
+  width: 500px;
+  height: 300px;
+  margin-top: 3250px;
+  border-radius: 15px;
+  margin-left: 600px;
+}
+.elon-p7 {
+  font-size: 20px;
+  font-family: "montserrat";
+  margin-top: 40px;
+  margin-left: 10px;
+}
+.elon-ul4 {
+  margin-top: 15px;
+  font-family: "montserrat";
+  font-size: 18px;
+  margin-left: 50px;
+}
+
+@media (max-width: 768px) {
+  .elon {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    padding: 40px 0;
+  }
+  .elon-p1,
+  .elon-musk,
+  .elon-vid,
+  .elon-face1,
+  .elon-p2,
+  .elon-p3,
+  .elon-div1,
+  .elon-face2,
+  .elon-p5,
+  .elon-p6,
+  .elon-div2 {
+    position: static;
+    margin: 15px 0;
+  }
+  .elon-p1 {
+    font-size: 22px;
+    text-align: center;
+  }
+  .elon-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+  .elon-musk,
+  .elon-vid {
+    width: 90%;
+    max-width: 350px;
+  }
+  .elon-div1,
+  .elon-div2 {
+    width: 90%;
+    height: auto;
+    padding: 20px;
+  }
+  .elon-p4,
+  .elon-p7 {
+    font-size: 18px;
+  }
+  .elon-ul1,
+  .elon-ul2,
+  .elon-ul3,
+  .elon-ul4 {
+    margin-top: 15px;
+    margin-left: 20px;
+    font-size: 16px;
   }
 }/*# sourceMappingURL=style.css.map */

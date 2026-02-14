@@ -27,7 +27,7 @@
         width: 200px;
         height: 50px;
         background-color: #00c5de;
-        border: none;
+        border-color: #00c5de;
         font-family: 'montserrat';
 border-radius: 20px;
 color:white;
@@ -78,59 +78,40 @@ transition: all 0.3s linear;
 
 @media (max-width: 768px){
 
-.intro-phone{
-    width: 100%;
-
+.intro{
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
 }
 
 .intro-p1{
-    font-size: 20px;
-    margin-left: 20px;
+    font-size: 22px;
+    margin: 40px 20px 10px;
+    text-align: center;
 }
+
 .intro-p2{
-    margin-left: 20px;
-    margin-top: 250px;
+    position: static;
+    margin: 10px 20px;
+    text-align: center;
 }
 
 .intro-btn{
-margin-top: 400px;
+    position: static;
+    margin: 20px 0 30px 0;
 }
 
-.intro-phone{
-    position: absolute;
-    width: 100%;
-    width: 500px;
-    margin-left: 20px;
-}
-
-.intro-camera{
-    position: absolute;
-    width: 100%;
-margin-left: 20px;
-margin-top: 1300px;
-}
-
-.intro-camera2{
-    position: absolute;
-    width: 100%;
-    margin-top: 1600px;
-    margin-left: -10px;
-}
-
-.intro-camera3{
-    position: absolute;
-    margin-top: 1950px;
-    margin-left: -5px;
-    
-}
-
+.intro-phone,
+.intro-camera,
+.intro-camera2,
+.intro-camera3,
 .intro-camera4{
-    position: absolute;
-    width: 100px;
-    margin-top: 2350px;
-    margin-left: -10px;
+    position: static;      
+    width: 80%;
+    max-width: 320px;
+    margin: 15px 0;        
+}
+
 }
 
 
-
-}
