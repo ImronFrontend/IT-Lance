@@ -1,0 +1,95 @@
+.mini{
+    position: absolute;
+    width: 1040px;
+    height: 200px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0e092a;
+    margin-top: 4100px;
+    border-radius: 20px;
+
+    &-p1{
+        color: white;
+        font-family: 'montserrat';
+        font-size: 20px;
+        margin-left: -300px;
+        white-space-collapse: break-spaces;
+
+      
+    }
+
+    &-spn{
+font-size: 25px;
+    }
+
+    &-logo1{
+        position: absolute;
+        margin-left: -800px;
+    }
+
+    &-num{
+        position: absolute;
+        width: 320px;
+        margin-left: 400px;
+        height: 40px;
+        background-color: #3e3a55;
+        border-radius: 10px;
+        border: none;
+        color: #6d6696;
+        font-family: 'montserrat';
+    }
+
+    &-btn{
+position: absolute;
+width: 139px;
+height: 49px;
+background: #00C5DE;
+box-shadow: 0px 2px 22px rgba(0, 0, 0, 0.12);
+border-radius: 60px;
+margin-left: 880px;
+        background-color: #00c5de;
+        border: none;
+        color: white;
+        font-family: 'montserrat';
+        transition: all 0.4s linear;
+    }
+
+    &-btn:hover{
+        background-color: #3e3a55;
+    }
+}
+
+@media (max-width: 1200px){
+    .mini{
+        width: 90%;
+        margin-top: 3600px;
+    }
+
+    .mini-logo1{
+        margin-left: -140px;
+        margin-top: -140px;
+    }
+
+    .mini-p1{
+        font-size: 12px;
+        margin-left: 80px;
+        margin-top: -80px;
+    }
+    
+    .mini-spn{
+        font-size: 16px;
+    }
+
+    .mini-num{
+        width: 200px;
+        margin-left: 4px;
+        margin-top: 15px;
+    }
+
+    .mini-btn{
+        margin-left: 5px;
+        margin-top: 130px;
+    }
+}
